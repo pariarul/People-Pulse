@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform, useMotionValue, useRef } from "framer-motion";
 import { ArrowRight, DollarSign, PieChart, Users } from "lucide-react";
 import Link from "next/link";
 
