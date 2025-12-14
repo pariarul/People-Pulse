@@ -1,7 +1,8 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { DollarSign, BarChart3, Briefcase } from "lucide-react";
+import { motion, useInView } from "framer-motion"
+import { DollarSign, BarChart3, Briefcase } from "lucide-react"
+import { useRef } from "react"
 
 const Highlights = () => {
   const cards = [

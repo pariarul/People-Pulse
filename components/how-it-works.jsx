@@ -2,6 +2,7 @@
 
 import { motion, useInView, useRef } from "framer-motion"
 import { UserPlus, Mail, ClipboardCheck, Banknote } from "lucide-react"
+import { useRef } from "react"
 
 const steps = [
   {

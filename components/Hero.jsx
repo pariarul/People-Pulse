@@ -1,7 +1,8 @@
 "use client";
 
-import { motion, useScroll, useTransform, useMotionValue, useRef } from "framer-motion";
+import { motion, useScroll, useTransform, useMotionValue } from "framer-motion";
 import { ArrowRight, DollarSign, PieChart, Users } from "lucide-react";
+import { useRef } from "react";
 import Link from "next/link";
 
 const MagneticButton = ({ children, className }) => {
