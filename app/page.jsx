@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
@@ -10,10 +10,12 @@ import HowItWorks from "@/components/HowItWorks";
 import TrustMetrics from "@/components/TrustMetrics";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import { motion, useMotionValue } from "framer-motion";
 
 export default function Home() {
+    const y = useMotionValue(0);
     return (
-        <main className="min-h-screen bg-slate-50 text-slate-900 font-sans overflow-x-hidden selection:bg-primary/30 selection:text-primary-900">
+        <motion.main className="min-h-screen bg-slate-50 text-slate-900 font-sans overflow-x-hidden selection:bg-primary/30 selection:text-primary-900" style={{ y }}>
             <Navbar />
             <Hero />
             <Highlights />
@@ -24,6 +26,6 @@ export default function Home() {
             <TrustMetrics />
             <Contact />
             <Footer />
-        </main>
+        </motion.main>
     );
 }

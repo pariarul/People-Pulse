@@ -2,7 +2,6 @@
 
 import { motion, useTime, useTransform } from "framer-motion";
 import { Send, Zap, Shield, Activity, Globe, Star } from "lucide-react";
-import Image from "next/image";
 
 
 const Contact = () => {
