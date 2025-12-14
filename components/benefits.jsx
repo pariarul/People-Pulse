@@ -1,8 +1,8 @@
 "use client"
 
-import { motion, useInView } from "framer-motion"
+import { motion, useInView, useRef } from "framer-motion"
 import { MessageSquare, ShoppingBag, Wallet } from "lucide-react"
-import { useRef } from "react"
+
 
 const benefits = [
   {

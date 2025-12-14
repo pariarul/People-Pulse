@@ -1,8 +1,8 @@
 "use client";
 
-import { motion, useInView } from "framer-motion"
-import { useRef, useState, useEffect } from "react"
+import { motion, useInView, useRef } from "framer-motion"
 import { Shield, Lock } from "lucide-react"
+import { useState, useEffect } from "react"
 
 function Counter({ target, suffix = "" }) {
   const [count, setCount] = useState(0)
