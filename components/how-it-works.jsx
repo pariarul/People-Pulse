@@ -1,7 +1,6 @@
 "use client"
 
-import { motion, useInView } from "framer-motion"
-import { useRef } from "react"
+import { motion, useInView, useRef } from "framer-motion"
 import { UserPlus, Mail, ClipboardCheck, Banknote } from "lucide-react"
 
 const steps = [
