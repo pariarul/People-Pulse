@@ -108,7 +108,7 @@ const Hero = () => {
             variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}
             className="text-xl text-slate-600 mb-8 max-w-lg"
           >
-            Earn <span className="font-bold text-slate-900">$20 to Sign Up</span>, and <span className="font-bold text-slate-900">$20 for Every Survey</span> you complete. Influence the next generation.
+            Earn <span className="font-bold text-slate-900">$20 to Sign Up</span> and <span className="font-bold text-slate-900">$20 for Every Survey</span> you complete. Influence the next generation.
           </motion.p>
 
           <motion.div
