@@ -73,7 +73,7 @@ export const metadata = {
     apple: "/people_pulse_logo.png",
   },
 
-  metadataBase: new URL("https://peoplepulse.com"),
+  metadataBase: new URL("https://panelfocus.in"),
 };
 
 export default function RootLayout({ children }) {
